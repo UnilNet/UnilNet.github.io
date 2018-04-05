@@ -6,7 +6,7 @@ This work aims to explore how to boost the performance of small-scale convolutio
 M. Laib, J. Golay, F. Guignard, and M. Kanevski
 
 #### URL
-You find more details on: 
+You will find more details on: 
 https://unilnet.github.io/
 
 The website will be online soon.
