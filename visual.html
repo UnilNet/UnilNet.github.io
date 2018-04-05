@@ -1,0 +1,127 @@
+<!DOCTYPE HTML>
+<!--
+	Theory by TEMPLATED
+	templated.co @templatedco
+	Released for free under the Creative Commons Attribution 3.0 license (templated.co/license)
+-->
+<html>
+	<head>
+		<title>Deep Learning for Remote Sensing Scene Classification</title>
+		<meta charset="utf-8" />
+		<meta name="viewport" content="width=device-width, initial-scale=1" />
+		<link rel="stylesheet" href="assets/css/main.css" />
+	</head>
+	<body>
+
+		<!-- Header -->
+			<header id="header">
+				<div class="inner">
+					
+					<nav id="nav">
+						<a href="index.html">Home</a>
+						<a href="Pycodes.html">Pycodes</a>
+						<a href="datasets.html">Datasets</a>
+						<a href="visual.html">Inside</a>
+						<a href="license.html">License</a>
+					</nav>
+					<a href="#navPanel" class="navPanelToggle"><span class="fa fa-bars"></span></a>
+				</div>
+			</header>
+
+		<!-- Banner -->
+			<section id="banner">
+				<h1>Deep Learning for Remote Sensing Scene Classification</h1>
+			 	<h3>This work aims to explore how to boost the performance of small-scale convolutional neural networks</h3> <!--Learning from spatial data: unveiling the geo-environment through quantitative approaches </h2>
+			-->
+			</section>
+
+		<!-- One -->
+			<section id="one" class="wrapper special">
+				<div class="inner">
+				<p>The left panel shows an original image of the class "Airplane". By moving the cursor in right panel, 
+				the reader can visualize, over the epochs, the evolution of a feature map of the first convolutional layer.
+				At the beginning, the network pays too much attention to ground of the tarmac. At the end, it focuses more
+				on the characterisitc shapes of the airplanes. However, the shadows appear to remain a source of confusion.</p>	
+				
+					<p>Epoch N°</p>
+							<input id="valR" type="range" min="1" max="30" value="1" step="1" oninput="showVal(this.value)" onchange="showVal(this.value)" />
+							<span id="range">1</span>
+							<div class="image fit">
+					<div class="flex flex-2">
+						<article>
+						
+						
+						
+						<div class="image fit">
+								<img src="images/nets0.png"  height="600" width="600">
+						</div>
+						
+						</article>
+						<article>
+							
+							
+							<img id="img" height="600" width="600">
+							</div>
+							
+						</article>
+					
+						<script>
+							var val = document.getElementById("valR").value;
+							document.getElementById("range").innerHTML=val;
+							document.getElementById("img").src = "images/nets" + val + ".png";
+							function showVal(newVal){
+								document.getElementById("range").innerHTML=newVal;
+								document.getElementById("img").src = "images/nets" + newVal + ".png";
+							}
+						</script>
+						
+						
+					</div>
+				
+					
+				</div>
+			</section>
+
+		<!-- Two 
+			<section id="two" class="wrapper style1 special">
+				<div class="inner">
+				
+PASTE HERE THE VISUALISATION paragraph
+
+				
+				</div>
+			</section>
+
+		
+			<section id="three" class="wrapper special">
+				<div class="inner">
+					
+					PASTE HERE SOME CODES USED FOR VISUALISATION--
+					<h3>Some tips:</h3>
+				<p> To visualise the output of the convolution layer, the following code was used: </p>
+				
+					
+				</div>
+			</section>
+			-->
+
+		<!-- Footer -->
+			<footer id="footer">
+				<div class="inner">
+					<div class="flex">
+						<div class="copyright">
+						
+							&copy; UnilNet | HTML template: <a href="https://templated.co">Templated.co</a> | Images: <a href="https://unsplash.com">Unsplash</a>.
+						</div>
+					</div>
+				</div>
+			</footer>
+
+		<!-- Scripts -->
+			<script src="assets/js/jquery.min.js"></script>
+			<script src="assets/js/skel.min.js"></script>
+			<script src="assets/js/util.js"></script>
+			<script src="assets/js/main.js"></script>
+
+	</body>
+</html>

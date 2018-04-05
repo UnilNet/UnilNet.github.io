@@ -1,0 +1,125 @@
+<!DOCTYPE HTML>
+<!--
+	Theory by TEMPLATED
+	templated.co @templatedco
+	Released for free under the Creative Commons Attribution 3.0 license (templated.co/license)
+-->
+<html>
+	<head>
+		<title>Python codes</title>
+		<meta charset="utf-8" />
+		<meta name="viewport" content="width=device-width, initial-scale=1" />
+		<link rel="stylesheet" href="assets/css/main.css" />
+	</head>
+	<body>
+
+		<!-- Header -->
+			<header id="header">
+				<div class="inner">
+					<nav id="nav">
+						<a href="index.html">Home</a>
+						<a href="Pycodes.html">Pycodes</a>
+						<a href="datasets.html">Datasets</a>
+						<a href="visual.html">Inside</a>
+						<a href="license.html">License</a>
+					</nav>
+					<a href="#navPanel" class="navPanelToggle"><span class="fa fa-bars"></span></a>
+				</div>
+				
+				
+				
+			</header>
+		<!-- Banner -->
+			<section id="banner">
+				<h1>Deep Learning for Remote Sensing Scene Classification</h1>
+				<h3>This work aims to explore how to boost the performance of small-scale convolutional neural networks</h3> 			
+			</section>
+		<!-- Three -->
+			<section id="two" class="wrapper">
+				
+					<header class="align-center">
+						<h2>Python codes used in this work</h2>
+						<p> Here, you can get access to the two versions of the Python codes. </br>
+						The following codes are just examples and more updates will be added later. </br>
+						 Please, choose which one you want to use </p>
+							<menu>
+								<label class="container">Keras
+									<input type="radio" name="radio" value="A" onclick = "populateData(event)">
+									<span class="checkmark"></span>
+								</label>
+							
+								<label class="container">TensorFlow
+									<input type="radio" name="radio" value="B" onclick = "populateData(event)">
+									<span class="checkmark"></span>
+								</label>
+							</menu>
+					</header>
+					
+					<div id="content" class="align-center">
+						<div id="imge">
+							<img src="images/UnilNet_TB_SAT4.png" alt="TB"/>
+						</div>
+					</div>
+						<div id="Keras">	
+							<div class="inner">		
+								
+								<img src="images/UnilNet_TB_SAT4.png" alt="TB" height="70" width="49"/>
+								<img src="images/keras-logo-2018-large-1200.png" alt="KR" height="70" width="242"/>
+								<p> Keras: The Python Deep Learning library.</p>
+								<script src="https://gist.github.com/mlaib/f0a3a2b7b3563013d1d929b53de8a720.js"></script>
+					
+							</div>
+						</div>
+						<div id="Tensorflow">	
+							<div class="inner">	
+								
+								<img src="images/UnilNet_TB_SAT4.png" alt="TB" height="70" width="49"/>
+								<img src="images/logo_TF.png" alt="UN" height="70" width="70"/>	
+								<p> TensorFlow: An open-source machine learning framework for everyone.</p>
+								<script src="https://gist.github.com/jeangolay/40e9a72b31dbee46c40fc3cf2059dc19.js"></script>
+					
+							</div>
+						</div>
+		
+<script>
+var targetDiv = document.getElementById('content');
+
+function populateData(event){
+    switch(event.target.value){
+        case 'A':{
+        document.getElementById("Keras").style.display = "inline";
+		document.getElementById("Tensorflow").style.display = "none"; 
+		document.getElementById("imge").style.display = "none";
+          break;
+        }
+        case 'B':{
+		document.getElementById("Keras").style.display = "none";
+        document.getElementById("Tensorflow").style.display = "inline";
+		document.getElementById("imge").style.display = "none";
+break;
+        }
+      }
+    }
+</script>
+			</section>
+
+		<!-- Footer -->
+			<footer id="footer">
+				<div class="inner">
+					<div class="flex">
+						<div class="copyright">
+						
+							&copy; UnilNet | HTML template: <a href="https://templated.co">Templated.co</a> | Images: <a href="https://unsplash.com">Unsplash</a>.
+						</div>
+					</div>
+				</div>
+			</footer>
+
+		<!-- Scripts -->
+			<script src="assets/js/jquery.min.js"></script>
+			<script src="assets/js/skel.min.js"></script>
+			<script src="assets/js/util.js"></script>
+			<script src="assets/js/main.js"></script>
+
+	</body>
+</html>
