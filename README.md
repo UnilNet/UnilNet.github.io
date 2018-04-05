@@ -9,4 +9,4 @@ M. Laib, J. Golay, F. Guignard, and M. Kanevski
 You will find more details on: 
 https://unilnet.github.io/
 
-The website will be online soon.
+More details will be added soon.
